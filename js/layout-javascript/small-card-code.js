@@ -1227,7 +1227,6 @@ DynamicList.prototype.addSummaryData = function(records) {
       isCurrentUser: entry.isCurrentUser ? entry.isCurrentUser : false,
       bookmarksEnabled: entry.bookmarksEnabled,
       chatEnabled: entry.chatEnabled,
-      chatEmail: entry.chatEmail,
       entryDetails: [],
       originalData: entry.data
     };
