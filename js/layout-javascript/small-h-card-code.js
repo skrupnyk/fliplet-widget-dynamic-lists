@@ -631,7 +631,6 @@ DynamicList.prototype.addSummaryData = function(records) {
     var newObject = {
       id: entry.id,
       chatEnabled: entry.chatEnabled,
-      chatEmail: entry.chatEmail,
       editEntry: entry.editEntry,
       deleteEntry: entry.deleteEntry,
       isCurrentUser: entry.isCurrentUser ? entry.isCurrentUser : false,
