@@ -1547,6 +1547,10 @@ html.ie11 .new-news-feed-list-container .news-feed-list-item:not(.open) .slide-o
     z-index: 1;
   }
 
+  .new-news-feed-list-container, .new-news-feed-list-container .news-feed-item-content .container-fluid {
+    max-width: none;
+  }
+
   .news-feed-detail-wrapper .news-feed-list-detail-image-wrapper {
     position: relative;
     width: auto;
